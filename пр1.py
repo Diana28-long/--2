@@ -39,3 +39,8 @@ while True:
 
     else:
         print("Невірна команда.")
+
+try:
+    number = int(input("Enter number: "))
+except ValueError:
+    print("Invalid input. Please enter a number.")
