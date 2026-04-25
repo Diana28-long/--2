@@ -5,7 +5,7 @@ class TestInputValidation(unittest.TestCase):
 
     def test_valid_number(self):
         number = int("10")
-        self.assertEqual(number, 10)
+        self.assertEqual(number, 100)
 
     def test_negative_number(self):
         number = int("-7")
